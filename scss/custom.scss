@@ -33,6 +33,7 @@ body {
 
     }
 
+
     .logo{
         margin-right: 10px;
     }
@@ -69,6 +70,9 @@ body {
         margin-top: 120px;
     }
 
+    .pb-mb{
+        display: none;
+    }
 
 }
 // Large devices (desktops, 992px and up)
@@ -95,6 +99,8 @@ body {
             padding: 0;
         }
     
+    
+
         .text-col{
             width: auto;
         }
@@ -117,29 +123,37 @@ body {
             width: 300px;
             margin-top: 120px;
         }
+
+        .pb-mb{
+            display: none;
+        }
     
 }
 
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 575.98px) and (max-width: 767px)  {
-
+    .pb{
+        display: none !important;
+    
+    }
 
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 990)  {
-//navbar
-.navbar {
-    background-color: $navbar-color;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
+@media (min-width: 768px) and (max-width: 990px)  {
+  
+  
 
+   //indhold på forsiden 
+    .pb-mb{
+        width: 100%;
+        height: auto;
     }
 
-    .logo{
-        margin-right: 10px;
+   .pb{
+        display: none !important;
+    
     }
 
 }
