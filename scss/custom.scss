@@ -5,9 +5,11 @@
 // Overskriv Bootstrap variabler 
 $primary: #0D0000; // Tekstfarve primær
 $secondary: #FFFFFF; // Tekstfarve sekundær
-$body-background-color: #F7F2EA; // Baggrundsfarve for sekundære knapper
+$body-background-color: #F7F2EA; // Baggrundsfarve
 $figure-color: #D6CCC7; // Figurfarve
 $navbar-color: #989181; // Navbarfarve
+$button-first-color: #E6D4BD; // knapper farve
+$button-second-color: #000000; // knapper farve
 
 // Overskriv Bootstrap's navbar farver
 $navbar-dark-color: $navbar-color;
@@ -42,15 +44,18 @@ body {
     .picture-col{
         height: 670px;
         max-width: 100%;
-        margin-right: 0;
-        margin-left: 0;
-        padding: 0;
     }
 
-    .text-col{
-        width: 500px;
+    .container{
+        color: $primary;
+        
     }
 
+    .row{
+        height: 0;
+    }
+
+ 
     .txt-xxxl{
         font-size: 100px;
         padding: 0;
@@ -70,10 +75,13 @@ body {
         margin-top: 120px;
     }
 
-    .pb-mb{
-        display: none;
+    .btn-first{
+        background-color: $button-first-color !important;
+        width: 200px;
     }
+    
 
+   
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 991.98px) and (max-width: 1199.98px)  {
@@ -101,8 +109,9 @@ body {
     
     
 
-        .text-col{
-            width: auto;
+        .container{
+            color: $primary;
+            text-align: left !important;
         }
     
         .txt-xxxl{
@@ -124,38 +133,121 @@ body {
             margin-top: 120px;
         }
 
-        .pb-mb{
-            display: none;
+        .btn-first{
+            background-color: $button-first-color !important;
+            width: 200px;
         }
     
 }
 
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 575.98px) and (max-width: 767px)  {
+@media (min-width: 0px) and (max-width: 767px)  {
+     //body
+     body{
+        background-image: url('/images/forside_picture.png');
+        background-repeat: no-repeat; 
+        background-position: 40% 10%;
+        background-size: auto;
+       
+
+    }
+    
+    //navbar
+    #offcanvasNavbar{
+        background-color: $figure-color;
+      }
+
+    //indhold på forsiden
     .pb{
         display: none !important;
     
+    }
+
+    .container{
+        color: $secondary;
+        height: 80vh;
+        
+    }
+
+    .row{
+        height: 80vh;
+    }
+
+
+    .btn-first{
+        background-color: $button-first-color !important;
+        width: 90%;
+    }
+
+    .txt-xxl{
+        font-size: 15px;
+
+    }
+
+    .txt-xxxl{
+        font-size: 50px;
+    }
+
+    .text_fp1{
+        max-width: 100%;
     }
 
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 990px)  {
-  
+  //navbar
+  #offcanvasNavbar{
+    background-color: $figure-color;
+  }
   
 
-   //indhold på forsiden 
-    .pb-mb{
-        width: 100%;
-        height: auto;
+    
+    //body
+    body{
+        background-image: url('/images/forside_picture.png');
+        background-repeat: no-repeat; 
+        background-size: 80vh;
+        background-position: none;
+       
+
     }
 
+    //indhold på forsiden
    .pb{
         display: none !important;
     
     }
 
+    .container{
+        color: $secondary;
+        height: 80vh;
+        
+    }
+
+    .row{
+        height: 70vh;
+    }
+
+
+    .btn-first{
+        background-color: $button-first-color !important;
+        width: 200px;
+    }
+
+    .txt-xxl{
+        font-size: 30px;
+
+    }
+
+    .txt-xxxl{
+        font-size: 60px;
+    }
+
+    .text-col{
+        margin-left: 200px;
+    }
 }
 
 
