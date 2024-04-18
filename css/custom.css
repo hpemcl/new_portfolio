@@ -43,6 +43,21 @@ body {
     background-color: #E6D4BD !important;
     width: 200px;
   }
+  .page-front {
+    background-color: #D6CCC7;
+    height: 90vh;
+  }
+  .btn-2nd {
+    background-color: #000000 !important;
+    width: 200px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    color: #FFFFFF !important;
+    font-weight: bold !important;
+  }
+  .txt-xxxxl {
+    font-size: 200px;
+  }
 }
 @media (min-width: 991.98px) and (max-width: 1199.98px) {
   .navbar {
@@ -84,9 +99,28 @@ body {
     background-color: #E6D4BD !important;
     width: 200px;
   }
+  .btn-first {
+    background-color: #E6D4BD !important;
+    width: 200px;
+  }
+  .page-front {
+    background-color: #D6CCC7;
+    height: 90vh;
+  }
+  .btn-2nd {
+    background-color: #000000 !important;
+    width: 200px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    color: #FFFFFF !important;
+    font-weight: bold !important;
+  }
+  .txt-xxxxl {
+    font-size: 150px;
+  }
 }
 @media (min-width: 0px) and (max-width: 767px) {
-  body {
+  .body-mobile {
     background-image: url("/images/forside_picture.png");
     background-repeat: no-repeat;
     background-position: 40% 10%;
@@ -123,7 +157,7 @@ body {
   #offcanvasNavbar {
     background-color: #D6CCC7;
   }
-  body {
+  .body-mobile {
     background-image: url("/images/forside_picture.png");
     background-repeat: no-repeat;
     background-size: 80vh;
