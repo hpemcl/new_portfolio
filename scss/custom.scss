@@ -22,10 +22,11 @@ $navbar-dark-active-color: $navbar-color;
 body {
     background-color: $body-background-color !important;
     font-family: 'Montserrat', sans-serif !important;
+
   }
 
 // XX-Large devices (larger desktops, 1400px and up) 
-@media (min-width: 1400px) {
+@media (min-width: 1200px)  {
     //navbar
     .navbar {
     background-color: $navbar-color;
@@ -52,7 +53,7 @@ body {
     }
 
     .row{
-        height: 0;
+        height: auto;
     }
 
  
@@ -75,6 +76,8 @@ body {
         margin-top: 120px;
     }
 
+
+    //hobby
     .btn-first{
         background-color: $button-first-color !important;
         width: 200px;
@@ -95,10 +98,12 @@ body {
     }
 
     .txt-xxxxl{
-        font-size: 200px;
+        font-size: 150px;
     }
 
-
+    .bg-footer{
+        background-color: $button-first-color;
+    }
 
 
    
