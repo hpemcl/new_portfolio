@@ -25,6 +25,10 @@ body {
 
   }
 
+.bg-footer{
+    background-color: $button-first-color;
+}
+
 // XX-Large devices (larger desktops, 1400px and up) 
 @media (min-width: 1200px)  {
     //navbar
@@ -88,22 +92,11 @@ body {
         height: 90vh;
     }
 
-    .btn-2nd{
-        background-color: $button-second-color !important;
-        width: 200px;
-        padding-top: 10px !important;
-        padding-bottom: 10px !important;
-        color: $secondary !important;
-        font-weight: bold !important;
-    }
 
     .txt-xxxxl{
         font-size: 150px;
     }
 
-    .bg-footer{
-        background-color: $button-first-color;
-    }
 
 
    
@@ -158,29 +151,12 @@ body {
             margin-top: 120px;
         }
 
-        .btn-first{
-            background-color: $button-first-color !important;
-            width: 200px;
-        }
 
         //hobby
-        .btn-first{
-            background-color: $button-first-color !important;
-            width: 200px;
-        }
     
         .page-front{
             background-color: $figure-color;
             height: 90vh;
-        }
-    
-        .btn-2nd{
-            background-color: $button-second-color !important;
-            width: 200px;
-            padding-top: 10px !important;
-            padding-bottom: 10px !important;
-            color: $secondary !important;
-            font-weight: bold !important;
         }
     
         .txt-xxxxl{
@@ -212,6 +188,10 @@ body {
         background-color: $figure-color;
       }
 
+    .navbar{
+        background-color: $navbar-color;
+    }
+
     //indhold på forsiden
     .pb{
         display: none !important;
@@ -222,10 +202,6 @@ body {
         color: $secondary;
         height: 80vh;
         
-    }
-
-    .row{
-        height: 80vh;
     }
 
 
@@ -247,6 +223,22 @@ body {
         max-width: 100%;
     }
 
+    //hobby
+    .btn-first{
+        background-color: $button-first-color !important;
+    }
+
+    .page-front{
+        background-color: $figure-color;
+        height: 90vh;
+    }
+
+    
+
+    .txt-xxxxl{
+        font-size: 50px;
+    }
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -256,7 +248,9 @@ body {
     background-color: $figure-color;
   }
   
-
+  .navbar{
+    background-color: $navbar-color;
+}
     
     //body
     .body-mobile{
@@ -276,19 +270,10 @@ body {
 
     .container{
         color: $secondary;
-        height: 80vh;
+      
         
     }
 
-    .row{
-        height: 70vh;
-    }
-
-
-    .btn-first{
-        background-color: $button-first-color !important;
-        width: 200px;
-    }
 
     .txt-xxl{
         font-size: 30px;
@@ -302,8 +287,21 @@ body {
     .text-col{
         margin-left: 200px;
     }
-}
 
+
+//hobby
+
+    .page-front{
+        background-color: $figure-color;
+        height: 90vh;
+    }
+
+
+    .txt-xxxxl{
+        font-size: 100px;
+    }
+
+}
 
 
 

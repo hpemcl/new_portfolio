@@ -4,6 +4,10 @@ body {
   font-family: "Montserrat", sans-serif !important;
 }
 
+.bg-footer {
+  background-color: #E6D4BD;
+}
+
 @media (min-width: 1200px) {
   .navbar {
     background-color: #989181;
@@ -47,19 +51,8 @@ body {
     background-color: #D6CCC7;
     height: 90vh;
   }
-  .btn-2nd {
-    background-color: #000000 !important;
-    width: 200px;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-    color: #FFFFFF !important;
-    font-weight: bold !important;
-  }
   .txt-xxxxl {
     font-size: 150px;
-  }
-  .bg-footer {
-    background-color: #E6D4BD;
   }
 }
 @media (min-width: 991.98px) and (max-width: 1199.98px) {
@@ -98,25 +91,9 @@ body {
     width: 300px;
     margin-top: 120px;
   }
-  .btn-first {
-    background-color: #E6D4BD !important;
-    width: 200px;
-  }
-  .btn-first {
-    background-color: #E6D4BD !important;
-    width: 200px;
-  }
   .page-front {
     background-color: #D6CCC7;
     height: 90vh;
-  }
-  .btn-2nd {
-    background-color: #000000 !important;
-    width: 200px;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-    color: #FFFFFF !important;
-    font-weight: bold !important;
   }
   .txt-xxxxl {
     font-size: 150px;
@@ -132,14 +109,14 @@ body {
   #offcanvasNavbar {
     background-color: #D6CCC7;
   }
+  .navbar {
+    background-color: #989181;
+  }
   .pb {
     display: none !important;
   }
   .container {
     color: #FFFFFF;
-    height: 80vh;
-  }
-  .row {
     height: 80vh;
   }
   .btn-first {
@@ -155,10 +132,23 @@ body {
   .text_fp1 {
     max-width: 100%;
   }
+  .btn-first {
+    background-color: #E6D4BD !important;
+  }
+  .page-front {
+    background-color: #D6CCC7;
+    height: 90vh;
+  }
+  .txt-xxxxl {
+    font-size: 50px;
+  }
 }
 @media (min-width: 768px) and (max-width: 990px) {
   #offcanvasNavbar {
     background-color: #D6CCC7;
+  }
+  .navbar {
+    background-color: #989181;
   }
   .body-mobile {
     background-image: url("/images/forside_picture.png");
@@ -171,14 +161,6 @@ body {
   }
   .container {
     color: #FFFFFF;
-    height: 80vh;
-  }
-  .row {
-    height: 70vh;
-  }
-  .btn-first {
-    background-color: #E6D4BD !important;
-    width: 200px;
   }
   .txt-xxl {
     font-size: 30px;
@@ -188,6 +170,13 @@ body {
   }
   .text-col {
     margin-left: 200px;
+  }
+  .page-front {
+    background-color: #D6CCC7;
+    height: 90vh;
+  }
+  .txt-xxxxl {
+    font-size: 100px;
   }
 }
 
