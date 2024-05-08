@@ -146,6 +146,9 @@ body {
     background-position: 40% 10%;
     background-size: auto;
   }
+  .margin-fp {
+    margin-top: 250px;
+  }
   #offcanvasNavbar {
     background-color: #D6CCC7;
   }
@@ -157,10 +160,15 @@ body {
   }
   .container {
     color: #FFFFFF;
-    height: 80vh;
+    height: auto;
+  }
+  .picture-col {
+    height: auto;
+    max-width: 100%;
   }
   .btn-first {
     background-color: #E6D4BD !important;
+    width: 200px;
   }
   .txt-xxl {
     font-size: 15px;
@@ -206,7 +214,7 @@ body {
   .body-mobile {
     background-image: url("/images/forside_picture.png");
     background-repeat: no-repeat;
-    background-size: 80vh;
+    background-size: 100%;
     background-position: none;
   }
   .pb {
@@ -215,14 +223,14 @@ body {
   .container {
     color: #FFFFFF;
   }
+  .margin-fp {
+    margin-top: 300px;
+  }
   .txt-xxl {
     font-size: 30px;
   }
   .txt-xxxl {
     font-size: 60px;
-  }
-  .text-col {
-    margin-left: 200px;
   }
   .page-front {
     background-color: #D6CCC7;

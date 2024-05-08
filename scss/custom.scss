@@ -236,6 +236,10 @@ body {
        
 
     }
+
+    .margin-fp{
+        margin-top: 250px;
+    }
     
     //navbar
     #offcanvasNavbar{
@@ -254,14 +258,20 @@ body {
 
     .container{
         color: $secondary;
-        height: 80vh;
+        height: auto;
         
     }
+
+        //indhold på forside
+        .picture-col{
+            height: auto;
+            max-width: 100%;
+        }
 
 
     .btn-first{
         background-color: $button-first-color !important;
-
+        width: 200px;
     }
 
     .txt-xxl{
@@ -318,6 +328,7 @@ body {
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 990px)  {
+  
   //navbar
   #offcanvasNavbar{
     background-color: $figure-color;
@@ -331,7 +342,7 @@ body {
     .body-mobile{
         background-image: url('/images/forside_picture.png');
         background-repeat: no-repeat; 
-        background-size: 80vh;
+        background-size: 100%;
         background-position: none;
        
 
@@ -349,6 +360,10 @@ body {
         
     }
 
+    .margin-fp{
+        margin-top: 300px;
+    }
+
 
     .txt-xxl{
         font-size: 30px;
@@ -359,9 +374,7 @@ body {
         font-size: 60px;
     }
 
-    .text-col{
-        margin-left: 200px;
-    }
+
 
 
 //hobby
