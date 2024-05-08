@@ -80,11 +80,6 @@ body {
         margin-top: 120px;
     }
 
-    .pb_aboutme {
-        height: auto;
-        width: 400px;
-       
-    }
     
 
     //hobby
@@ -103,7 +98,32 @@ body {
         font-size: 150px;
     }
 
+    //about me
+    .pb_aboutme {
+        height: auto;
+        width: 400px;
+       
+    }
 
+    //work 
+
+    .card-2 {
+        background-color: $figure-color;
+    }
+
+    .card-1{
+        background-color: $button-first-color;
+    }
+
+    .btn-second{
+        background-color: $secondary !important;
+        width: 200px;
+    }
+
+    .btn-second:hover{
+        background-color: $navbar-color !important;
+        color: $secondary !important;
+    }
 
    
 }
@@ -131,7 +151,10 @@ body {
             padding: 0;
         }
     
-    
+        .btn-first{
+            background-color: $button-first-color !important;
+            width: 150px;
+        }
 
         .container{
             color: $primary;
@@ -157,11 +180,7 @@ body {
             margin-top: 120px;
         }
 
-        .pb_aboutme {
-            height: auto;
-            width: 200px;
-            margin-top: 120px;
-        }
+
 
 
         //hobby
@@ -176,9 +195,32 @@ body {
         }
 
 
+    //about me
+    .pb_aboutme {
+        height: auto;
+        max-width: 200px;
+       
+    }
 
+    //work 
 
-          
+    .card-2 {
+        background-color: $figure-color;
+    }
+
+    .card-1{
+        background-color: $button-first-color;
+    }
+
+    .btn-second{
+        background-color: $secondary !important;
+        width: 200px;
+    }
+
+    .btn-second:hover{
+        background-color: $navbar-color !important;
+        color: $secondary !important;
+    }
     
 }
 
@@ -219,7 +261,7 @@ body {
 
     .btn-first{
         background-color: $button-first-color !important;
-        width: 90%;
+
     }
 
     .txt-xxl{
@@ -250,6 +292,27 @@ body {
     .txt-xxxxl{
         font-size: 50px;
     }
+
+    //work 
+
+    .card-2 {
+        background-color: $figure-color;
+    }
+
+    .card-1{
+        background-color: $button-first-color;
+    }
+
+    .btn-second{
+        background-color: $secondary !important;
+        width: 200px;
+    }
+
+    .btn-second:hover{
+        background-color: $navbar-color !important;
+        color: $secondary !important;
+    }
+
 
 }
 
@@ -313,6 +376,38 @@ body {
         font-size: 100px;
     }
 
+
+    //about me
+    .pb_aboutme {
+        height: auto;
+        width: 500px;
+       
+    }
+
+//work 
+.btn-first{
+    background-color: $button-first-color !important;
+    width: 200px;
+}
+   
+
+    .card-2 {
+        background-color: $figure-color;
+    }
+
+    .card-1{
+        background-color: $button-first-color;
+    }
+
+    .btn-second{
+        background-color: $secondary !important;
+        width: 200px;
+    }
+
+    .btn-second:hover{
+        background-color: $navbar-color !important;
+        color: $secondary !important;
+    }
 }
 
 

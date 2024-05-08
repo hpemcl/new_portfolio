@@ -43,10 +43,6 @@ body {
     width: 400px;
     margin-top: 120px;
   }
-  .pb_aboutme {
-    height: auto;
-    width: 400px;
-  }
   .btn-first {
     background-color: #E6D4BD !important;
     width: 200px;
@@ -57,6 +53,24 @@ body {
   }
   .txt-xxxxl {
     font-size: 150px;
+  }
+  .pb_aboutme {
+    height: auto;
+    width: 400px;
+  }
+  .card-2 {
+    background-color: #D6CCC7;
+  }
+  .card-1 {
+    background-color: #E6D4BD;
+  }
+  .btn-second {
+    background-color: #FFFFFF !important;
+    width: 200px;
+  }
+  .btn-second:hover {
+    background-color: #989181 !important;
+    color: #FFFFFF !important;
   }
 }
 @media (min-width: 991.98px) and (max-width: 1199.98px) {
@@ -75,6 +89,10 @@ body {
     margin-right: 0;
     margin-left: 0;
     padding: 0;
+  }
+  .btn-first {
+    background-color: #E6D4BD !important;
+    width: 150px;
   }
   .container {
     color: #0D0000;
@@ -95,17 +113,30 @@ body {
     width: 300px;
     margin-top: 120px;
   }
-  .pb_aboutme {
-    height: auto;
-    width: 200px;
-    margin-top: 120px;
-  }
   .page-front {
     background-color: #D6CCC7;
     height: 90vh;
   }
   .txt-xxxxl {
     font-size: 150px;
+  }
+  .pb_aboutme {
+    height: auto;
+    max-width: 200px;
+  }
+  .card-2 {
+    background-color: #D6CCC7;
+  }
+  .card-1 {
+    background-color: #E6D4BD;
+  }
+  .btn-second {
+    background-color: #FFFFFF !important;
+    width: 200px;
+  }
+  .btn-second:hover {
+    background-color: #989181 !important;
+    color: #FFFFFF !important;
   }
 }
 @media (min-width: 0px) and (max-width: 767px) {
@@ -130,7 +161,6 @@ body {
   }
   .btn-first {
     background-color: #E6D4BD !important;
-    width: 90%;
   }
   .txt-xxl {
     font-size: 15px;
@@ -150,6 +180,20 @@ body {
   }
   .txt-xxxxl {
     font-size: 50px;
+  }
+  .card-2 {
+    background-color: #D6CCC7;
+  }
+  .card-1 {
+    background-color: #E6D4BD;
+  }
+  .btn-second {
+    background-color: #FFFFFF !important;
+    width: 200px;
+  }
+  .btn-second:hover {
+    background-color: #989181 !important;
+    color: #FFFFFF !important;
   }
 }
 @media (min-width: 768px) and (max-width: 990px) {
@@ -186,6 +230,28 @@ body {
   }
   .txt-xxxxl {
     font-size: 100px;
+  }
+  .pb_aboutme {
+    height: auto;
+    width: 500px;
+  }
+  .btn-first {
+    background-color: #E6D4BD !important;
+    width: 200px;
+  }
+  .card-2 {
+    background-color: #D6CCC7;
+  }
+  .card-1 {
+    background-color: #E6D4BD;
+  }
+  .btn-second {
+    background-color: #FFFFFF !important;
+    width: 200px;
+  }
+  .btn-second:hover {
+    background-color: #989181 !important;
+    color: #FFFFFF !important;
   }
 }
 
